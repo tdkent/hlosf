@@ -30,8 +30,8 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className={`${workSans.variable} ${cormorant.variable}`}>
-      <body className="font-sans bg-background text-foreground h-screen flex flex-col">
-        <div id="root">
+      <body className="font-sans bg-background text-foreground">
+        <div id="root" className="flex flex-col min-h-screen">
           <Header />
           <div className="w-full flex-1">
             <NavBar />
