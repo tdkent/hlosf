@@ -40,6 +40,7 @@ export default function LandmarkImages({ name, numImgs, slug }: Props) {
       >
         <CustomImage
           altText={name}
+          containerStyles="h-dvh"
           imgStyles="w-screen h-screen object-contain"
           slug={`${slug}-${slideIdx + 1}`}
         />
