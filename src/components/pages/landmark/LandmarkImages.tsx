@@ -40,7 +40,7 @@ export default function LandmarkImages({ name, numImgs, slug }: Props) {
       >
         <CustomImage
           altText={name}
-          imgStyles="w-screen h-screen object-contain"
+          imgStyles="w-screen h-dvh object-contain"
           slug={`${slug}-${slideIdx + 1}`}
         />
       </ReactModal>
